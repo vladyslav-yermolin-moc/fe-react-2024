@@ -1,3 +1,11 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  padding: 20px 50px;
+  background-color: #111;
+  color: #FFF;
+}
+
 .header {
   font-size: 34px;
   text-align: center;

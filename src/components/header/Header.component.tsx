@@ -1,2 +1,6 @@
 import styles from './header.module.css';
-export const HeaderComponent = () => <h1 className={styles.header}>Page header</h1>;
+export const HeaderComponent = () => (
+    <div className={styles.headerContainer}>
+        <img src="./logo.svg" alt="logo" width="46" height="46" />
+    </div>
+);
